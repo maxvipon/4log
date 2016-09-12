@@ -1,0 +1,33 @@
+{
+  "name": "4log",
+  "version": "0.0.0",
+  "description": "Line, HTTP Response and Error logger",
+  "license": "MIT",
+  "repository": "maxvipon/4log",
+  "author": {
+    "name": "Maxim Ponomarev",
+    "email": "maxvipon@gmail.ru",
+    "url": "github.com/maxvipon"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "log",
+    "logger"
+  ],
+  "dependencies": {
+    "datef": "^3.0.0",
+    "pff": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  }
+}
