@@ -1,3 +1,5 @@
+'use strict';
+
 const datef = require('datef');
 const ff = require('pff');
 
