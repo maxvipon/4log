@@ -1,6 +1,6 @@
 {
   "name": "4log",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Line, HTTP Response and Error logger",
   "license": "MIT",
   "repository": "maxvipon/4log",
