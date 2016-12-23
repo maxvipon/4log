@@ -22,7 +22,7 @@ function toLine(msg) {
 
 function Logger(name, outStream, errStream) {
 	this.name = name;
-	this.tsformat = 'dd/MM/YYYY:hh:mm:ss ZZ';
+	this.tsformat = 'dd/MM/YYYY:HH:mm:ss ZZ';
 	this.stdout = outStream || process.stdout;
 	this.stderr = errStream || process.stderr;
 }
